@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/pesquisa.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image"> 
+            <img src="img/imagemformulário.jpg">
+        </div>
+        
+        <div class="form">
+            <form action="#">
+                <div class="formheader">
+                    <div class="title">
+                        <h1>Cadastre-se!</h1>
+                    </div>
+                    <div class="login_button">
+                        <button><a href="#">Entre</a></button>
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="input_box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite o seu primeiro nome" required>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="age">Idade</label>
+                        <input id="age" type="number" name="age" placeholder="Digite a sua Idade">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="e-mail">E-mail</label>
+                        <input id="e-mail" type="email" name="name" placeholder="Insira seu e-mail" required>
+                    </div>
+                </div>
+                <div class="gender">
+                    <div class="gender_tittle">
+                        <h6>Gênero que se identifica</h6>
+                    </div>
+
+                    <div class="gender_group">
+                        <div class="gender_input">
+                            <input type="radio" id="famale" name="gender">
+                            <label for="famale">Feminino</label>
+                        </div>
+
+                        <div class="gender_input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender_input">
+                            <input type="radio" id="other" name="gender">
+                            <label for="other">Outro</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue_button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    
+</body>
+</html>
